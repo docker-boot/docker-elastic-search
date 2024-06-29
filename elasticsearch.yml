@@ -1,0 +1,14 @@
+discovery.type: single-node
+node.name: es-sample
+node.master: true
+node.data: true
+transport.host: 0.0.0.0
+transport.tcp.port: 9300
+http.host: 0.0.0.0
+http.port: 9200
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+network.host: 0.0.0.0
+xpack.security.audit.enabled: true
+bootstrap.memory_lock: true
+path.logs: /usr/share/elasticsearch/logs
