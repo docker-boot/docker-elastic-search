@@ -39,4 +39,9 @@ http://localhost:9100
 
 连接地址：http://localhost:9200/
 注：启动后，等待片刻才能连上
+
+空查询结果
+cd _site
+vim vendor.js
+application/x-www-form-urlencoded 改成 application/json;charset=UTF-8
 </pre>
